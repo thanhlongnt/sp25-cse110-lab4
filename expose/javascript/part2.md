@@ -1,3 +1,5 @@
+# Part 2. A Little More of a Challenge...
+
 1. line 12 will output `3`. this happens because `i` is the index used for the for loop, but it is declared with a `var`
 
 2. line 13 outputs `150`, which is the last discounted price calculated. this happens beacuse `discountedPrice` is declared as a `var` type
