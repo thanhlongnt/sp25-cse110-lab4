@@ -20,7 +20,7 @@
 
 10. line 12 will output 3, as `length` is declared as a `const` and `console.log` is within the function scope
 
-11. this will do the same as the first two versions. // investigate why we can append to the const variable
+11. this will do the same as the first two versions
 
 12. for the student object, we can use the following notation:
     a. student.name
@@ -47,12 +47,12 @@ d. false
 e. false
 f. true
 
-15. == is loose typing
-    === is strict typing
+15. == is loose typing comparison
+    === is strict typing comparison
 
 16. Code for this question is [here](part2-question16.js)
 
-17. this code doubles the input array. 
+17. this code doubles each element in the input array. `modifyArray` calls `doSomething`for each element in the input array, which multiplies the input by 2, stores this in `newArr` and returns that.
 
 18. code for this questions is [here](part2-question18.js)
 
